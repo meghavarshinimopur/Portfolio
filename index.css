@@ -657,7 +657,7 @@ nav .menu-btn i {
   transition: ease-in-out 3s;
 }
 .scrollimg .box.box1 {
-  background-image: url(./images/indiamartfullss.png);
+  background-image: url(./hospital.jpeg);
   background-size: cover;
 }
 .scrollimg .box:hover {

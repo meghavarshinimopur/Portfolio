@@ -43,7 +43,7 @@ const text = document.querySelector(".typing-dev");
 // make a words array
 const words = [
  
-  "DEVOPS ENGINEER..."
+  "DevOps Engineer..."
 ];
 
 // start typing effect
@@ -124,11 +124,11 @@ document.getElementById("gitbus").addEventListener("click", function () {
 
 //1st prject github and deploy link
 document.getElementById("gitindiamart").addEventListener("click", function () {
-  window.open("https://github.com/Madhavaraochalla", "_blank");
+  window.open("https://github.com/Madhavaraochalla/Kubernetes-project.git", "_blank");
 });
 
 document.getElementById("indmartdep").addEventListener("click", function () {
-  window.open("https://endearin", "_blank");
+  window.open("https://github.com/Madhavaraochalla/Kubernetes-project.git", "_blank");
 });
 
 //2nd prject github and deploy link
