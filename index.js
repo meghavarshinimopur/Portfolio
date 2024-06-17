@@ -103,17 +103,16 @@ function setTyper(element, words) {
   }
 }
 
-
-// main project bus 
+// 1st project  
 document.getElementById("depbus").addEventListener("click", function () {
   window.open(
-    "https://github.com/Madhavaraochalla",
+    "https://github.com/Madhavaraochalla/End-To-End_Project.git",
     "_blank"
   );
 });
 document.getElementById("gitbus").addEventListener("click", function () {
   window.open(
-    "https://github.com/Madhavaraochalla",
+    "https://github.com/Madhavaraochalla/End-To-End_Project.git",
     "_blank"
   );
 });
@@ -122,7 +121,8 @@ document.getElementById("gitbus").addEventListener("click", function () {
 
 
 
-//1st prject github and deploy link
+
+//2nd prject 
 document.getElementById("gitindiamart").addEventListener("click", function () {
   window.open("https://github.com/Madhavaraochalla/Kubernetes-project.git", "_blank");
 });
@@ -131,7 +131,7 @@ document.getElementById("indmartdep").addEventListener("click", function () {
   window.open("https://github.com/Madhavaraochalla/Kubernetes-project.git", "_blank");
 });
 
-//2nd prject github and deploy link
+//3rd prject github and deploy link
 document.getElementById("depshopnow").addEventListener("click", function () {
   window.open(
     "https://madhavarao-portfolio.netlify.app/",
@@ -145,7 +145,7 @@ document.getElementById("gitshopnow").addEventListener("click", function () {
   );
 });
 
-//3rd prject github and deploy link
+//4th prject github and deploy link
 
 document.getElementById("gitweather").addEventListener("click", function () {
   window.open("https://github.com/Madhavaraochalla", "_blank");
@@ -165,16 +165,8 @@ document.getElementById("gitprofile").addEventListener("click", function () {
   window.open("https://github.com/Madhavaraochalla", "_blank");
 });
 
-GitHubCalendar(".calendar", "yendasivakumar");
 
-// or enable responsive functionality:
-GitHubCalendar(".calendar", "yendasivakumar", { responsive: true });
 
-// Use a proxy
-GitHubCalendar(".calendar", "yendasivakumar", {
-  proxy(username) {
-    return fetch(`https://your-proxy.com/github?user=${yendasivakumar}`);
-  },
-}).then((r) => r.text());
+
 
 
